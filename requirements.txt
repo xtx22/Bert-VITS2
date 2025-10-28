@@ -1,5 +1,7 @@
 librosa==0.9.2
-matplotlib
+torch==2.8.0
+torchaudio==2.8.0
+matplotlib==3.9.2
 numpy
 numba
 phonemizer
@@ -7,7 +9,6 @@ scipy
 tensorboard
 Unidecode
 amfm_decompy
-jieba_fast
 jieba
 transformers
 pypinyin
@@ -19,7 +20,8 @@ loguru
 unidic-lite
 cmudict
 fugashi
-num2words
+#num2words
+https://files.pythonhosted.org/packages/f6/58/ad645bd38b4b648eb2fc2ba1b909398e54eb0cbb6a7dbd2b4953e38c9621/num2words-0.5.14.tar.gz
 PyYAML
 requests
 pyopenjtalk-prebuilt
@@ -29,8 +31,9 @@ GPUtil
 vector_quantize_pytorch
 g2p_en
 sentencepiece
+soxr
 pykakasi
 langid
-onnxruntime-gpu
-opencc==1.1.6
 WeTextProcessing>=0.1.10; platform_system != "Windows"
+openi
+huggingface_hub[cli]
