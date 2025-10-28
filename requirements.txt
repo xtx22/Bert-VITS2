@@ -35,3 +35,5 @@ soxr
 pykakasi
 langid
 WeTextProcessing>=0.1.10; platform_system != "Windows"
+openi
+huggingface_hub[cli]
