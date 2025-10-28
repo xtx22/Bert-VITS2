@@ -1,7 +1,6 @@
 librosa==0.9.2
 torch==2.8.0
 torchaudio==2.8.0
-onnxruntime-gpu
 matplotlib==3.9.2
 numpy
 numba
@@ -35,6 +34,8 @@ sentencepiece
 soxr
 pykakasi
 langid
+onnxruntime-gpu
+opencc==1.1.6
 WeTextProcessing>=0.1.10; platform_system != "Windows"
 openi
 huggingface_hub[cli]
