@@ -1,7 +1,7 @@
 ```
 conda create -n bert-vits2 python=3.11
 
-git clone https://gh-proxy.com/https://github.com/fishaudio/Bert-VITS2.git -b Extra-Fix
+git clone https://gh-proxy.com/https://github.com/xtx22/Bert-VITS2.git -b Extra-Fix
 
 hf download hfl/chinese-roberta-wwm-ext-large --local-dir bert/chinese-roberta-wwm-ext-large
 hf download ku-nlp/deberta-v2-large-japanese-char-wwm --local-dir bert/deberta-v2-large-japanese-char-wwm
